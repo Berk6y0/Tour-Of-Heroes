@@ -84,8 +84,7 @@ CORS(app)
 ## Contributing
 Feel free to fork this repository and contribute! Open a pull request for review.
 
-## License
-This project is licensed under the MIT License.
+
 
 
 
