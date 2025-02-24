@@ -1,6 +1,6 @@
 Preview of Tour of Heroes
 ![image](https://github.com/user-attachments/assets/c56e8ca8-fc26-45fa-93d9-388c5c058c8b)
-![image](https://github.com/user-attachments/assets/d98b5457-8679-4f7c-9e84-523157792eed)
+![image](https://github.com/user-attachments/assets/a50b81be-4774-4bde-844b-5a611f32487f)
 ![image](https://github.com/user-attachments/assets/82de64a6-7bc3-4958-a14b-c1ed09665dbb)
 # Tour of Heroes
 
