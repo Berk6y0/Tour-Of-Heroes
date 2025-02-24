@@ -1,0 +1,28 @@
+
+
+<h2>My Heroes</h2>
+
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+  <a routerLink= "/detail/ {{hero.id}}">
+      <span class="badge">{{hero.id}}</span>
+      <span class="name">{{hero.name}}</span>
+    </a>
+    <img [src]="hero.imageUrl || 'assets/default-hero.png'" alt="{{ hero.name }}" class="hero-image">
+    <button type="button" class="delete" title="delete hero"
+    (click)="delete(hero)">x</button>
+  </li>
+  
+</ul>
+<div>
+  <label for="new-hero">Hero name: </label>
+  <input id="new-hero" #heroName />
+  <input #heroImageUrl placeholder="Image URL" />
+<div>
+  
+  <button type="button" class="add-button" (click)="add(heroName.value,heroImageUrl.value); heroName.value='';heroImageUrl.value=''">
+    Add hero
+  </button>
+</div>
+ 
+</div>

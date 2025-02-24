@@ -1,0 +1,19 @@
+<div *ngIf="hero">
+    <h2>{{hero.name | uppercase}} Details  <img [src]="hero.imageUrl || 'assets/default-hero.png'" alt="{{ hero.name }}" class="hero-image"></h2>
+    <div id="warn">Hold onto it to examine the fotography </div>
+    <div>id: {{hero.id}} </div>
+    
+    <div>
+      <label for="hero-name">Hero name: </label>
+      <input #nameInput type="text" [value]="hero.name" (input)="hero.name = nameInput.value">
+  
+    </div>
+    <div>    
+    </div>
+    <div>
+      <label for="hero-image">Hero Image URL: </label>
+      <input #imageInput type="text" [value]="hero.imageUrl"   (input)="hero.imageUrl = imageInput.value">
+    
+    </div>
+    <button (click)="save()">Save Changes</button>  <button (click)="goBack()">go back</button>
+  </div>
